@@ -1,20 +1,20 @@
 {
-    crumpets:[
+    "crumpets":[
         {
-            name: 'English Crumpet',
-            type: 'English'
+            "name": "English Crumpet",
+            "type": "English"
         },
         {
-            name: 'Scottish Crumpet',
-            type: 'Scottish'
+            "name": "Scottish Crumpet",
+            "type": "Scottish"
         },
         {
-            name: 'Pikelet',
-            type: 'Pikelet'
+            "name": "Pikelet",
+            "type": "Pikelet"
         },
         {
-            name: 'Square Crumpet',
-            type: 'Square'
-        },
+            "name": "Square Crumpet",
+            "type": "Square"
+        }
     ]
 }
