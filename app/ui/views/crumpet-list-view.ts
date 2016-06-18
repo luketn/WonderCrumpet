@@ -3,17 +3,17 @@ import {Crumpet} from "../../data/Crumpet";
 
 @Component({
     selector: "crumpet-list-view",
-    template: `<GridLayout rows="auto, *">
-                    <ListView [items]="list" row="1" class="small-spacing">
+    template: `<GridLayout class="crumpet-grid" rows="auto, *">
+                    <ListView [items]="list" row="1" class="crumpet-list-view">
                         <template let-item="item">
                             <GridLayout columns="*, auto" (tap)="clicked.emit(item)">
-                                <Label col="0" [text]="item.name" class="medium-spacing"></Label>
+                                <Label col="0" [text]="item.name" class="crumpet-item-name"></Label>
                             </GridLayout>
                         </template>
                     </ListView>
                </GridLayout>
                `,
-    styles: [``]
+    styleUrls: ['./ui/views/crumpet-list-view.css']
 })
 
 export class CrumpetListView {

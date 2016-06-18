@@ -1,0 +1,9 @@
+.crumpet-grid{
+    margin: 20px;
+}
+.crumpet-item-name{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: crimson;
+}
