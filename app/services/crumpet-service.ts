@@ -5,6 +5,7 @@ import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import {Observable} from "rxjs/Rx";
 import {Crumpet} from "../data/Crumpet";
+import {AppError} from "../data/AppError";
 
 @Injectable()
 export class CrumpetService {
@@ -25,7 +26,6 @@ export class CrumpetService {
     }
 
     handleErrors(error: Response) {
-        console.log('Error calling crumpet service: ', JSON.stringify(error));
-        return Observable.throw(error);
+        return Observable.throw(new AppError('Error calling crumpet service', error));
     }
 }
