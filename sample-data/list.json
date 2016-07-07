@@ -2,19 +2,23 @@
     "crumpets":[
         {
             "name": "English Crumpet",
-            "type": "English"
+            "type": "English",
+            "imageUrl": "http://wondercrumpet.com/images/EnglishCrumpetIcon.jpg"
         },
         {
             "name": "Scottish Crumpet",
-            "type": "Scottish"
+            "type": "Scottish",
+            "imageUrl": "http://wondercrumpet.com/images/ScottishCrumpetIcon.jpg"
         },
         {
             "name": "Pikelet",
-            "type": "Pikelet"
+            "type": "Pikelet",
+            "imageUrl": "http://wondercrumpet.com/images/PikeletIcon.jpg"
         },
         {
             "name": "Square Crumpet",
-            "type": "Square"
+            "type": "Square",
+            "imageUrl": "http://wondercrumpet.com/images/SquareCrumpetIcon.jpg"
         }
     ]
 }
