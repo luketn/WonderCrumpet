@@ -10,4 +10,5 @@ export const CrumpetTypes = {
 export interface Crumpet {
     name:string;
     type:CrumpetType;
+    imageUrl:string;
 }

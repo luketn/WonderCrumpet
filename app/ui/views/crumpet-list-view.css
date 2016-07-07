@@ -1,9 +1,17 @@
 .crumpet-grid{
     margin: 20px;
 }
-.crumpet-item-name{
-    margin: 10px;
+.crumpet-row{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.crumpet-name {
+    margin-left: 10px;
     font-size: large;
     font-weight: bold;
     color: crimson;
+}
+.crumpet-icon{
+    height:50px;
+    width:50px;
 }

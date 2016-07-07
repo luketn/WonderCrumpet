@@ -6,9 +6,9 @@ import {Crumpet} from "../../data/Crumpet";
     template: `<GridLayout class="crumpet-grid" rows="auto, *">
                     <ListView [items]="list" row="1" class="crumpet-list-view">
                         <template let-item="item">
-                            <GridLayout columns="50, auto" (tap)="clicked.emit(item)">
-                                <Image col="0" src="~/ui/images/EnglishCrumpetIcon.jpg"></Image>
-                                <Label col="1" [text]="item.name" class="crumpet-item-name"></Label>
+                            <GridLayout columns="50, auto" (tap)="clicked.emit(item)" class="crumpet-row">
+                                <Image col="0" [src]="item.imageUrl" class="crumpet-icon"></Image>
+                                <Label col="1" [text]="item.name" class="crumpet-name"></Label>
                             </GridLayout>
                         </template>
                     </ListView>
