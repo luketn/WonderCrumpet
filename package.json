@@ -3,7 +3,10 @@
 	"description": "Application for exploring the wonder of crumpets.",
 	"license": "See 'LICENSE'",
 	"readme": "See 'README.md'",
-	"repository": "https://github.com/luketn/WonderCrumpet.git",
+	"repository": {
+		"url":"https://github.com/luketn/WonderCrumpet.git",
+		"type": "git"
+	},
 	"nativescript": {
 		"id": "com.wondercrumpet",
 		"tns-ios": {
